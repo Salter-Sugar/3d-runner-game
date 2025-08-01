@@ -1,1 +1,23 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+#renderCanvas {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+#score {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10;
+}
